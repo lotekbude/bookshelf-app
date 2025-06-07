@@ -67,22 +67,7 @@ bookshelf-app/
    - Gunakan kolom pencarian untuk mencari buku berdasarkan judul
    - Hasil pencarian akan ditampilkan secara real-time
 
-## 🎯 Kriteria Submission yang Dipenuhi
-
-### Kriteria Utama:
-- ✅ Mampu menambahkan data buku
-- ✅ Memiliki dua rak buku (belum selesai dibaca dan selesai dibaca)
-- ✅ Dapat memindahkan buku antar rak
-- ✅ Dapat menghapus data buku
-- ✅ Memanfaatkan localStorage untuk penyimpanan data
-
-### Kriteria Opsional:
-- ✅ Fitur pencarian buku
-- ✅ Menggunakan confirm() sebelum menghapus buku
-- ✅ Responsive design
-- ✅ Validasi input form
-
-## 📚 Konsep yang Dipelajari
+## 🎯 Konsep yang Dipelajari
 
 Project ini mengimplementasikan konsep-konsep dari kelas Dicoding:
 - **DOM Manipulation**: Menambah, mengubah, dan menghapus elemen HTML
