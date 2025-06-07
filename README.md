@@ -29,7 +29,7 @@ Aplikasi web sederhana untuk mengelola koleksi buku pribadi. User dapat menambah
 bookshelf-app/
 ├── index.html          # Halaman utama aplikasi
 ├── src/
-   ├── styles/          # Icon dan gambar
+   ├── styles/
       └──  style.css    # File CSS utama
    ├── main.js          # JavaScript utama
 └── README.md           # Dokumentasi project
